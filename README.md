@@ -11,7 +11,7 @@ Flask URL Shortener
   同时支持网页表单和 JSON API 调用
   提供所有已注册短链接的查询接口
   自定义全局错误处理，返回统一格式的JSON错误信息
-
+  version2实现了自定义短码
 
 项目结构：
   url_shortener/
@@ -22,6 +22,21 @@ Flask URL Shortener
         │   
         urls.db             # SQLite 数据库（运行时生成）
 
+注意事项：本地Flask不支持https，所以生成https的短码会出现安全拦截
+
+操作（以version2的表单提交为例）：
+    1.先进入虚拟环境再运行
+    2.进入浏览器 "http://127.0.0.1:5000/" 显示如下画面：
+    <img width="584" height="252" alt="image" src="https://github.com/user-attachments/assets/825af938-34a6-4e1e-b01a-e8f275b84d98" />
+
+
+
 扩展方法：
    可以增加token认证（用户登录 / 权限管理）
-   自定义短码
+
+
+
+
+
+
+
