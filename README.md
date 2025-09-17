@@ -28,11 +28,13 @@ Flask URL Shortener
     1.先进入虚拟环境再运行
     2.进入浏览器 "http://127.0.0.1:5000/" 显示如下画面：
     
-    <img width="584" height="252" alt="image" src="https://github.com/user-attachments/assets/825af938-34a6-4e1e-b01a-e8f275b84d98" />
+   <img width="563" height="195" alt="image" src="https://github.com/user-attachments/assets/a14460da-d95e-45a4-ab2a-b8cbe76890f7" />
 
+    
     3.将长连接填入上方的输入框（必填）
     4.将自定义短码填入下方的输入框（选填）
     5.好啦，接下来就自行探索啦！（没什么功能啦！）
+    
 
 扩展方法：
    可以增加token认证（用户登录 / 权限管理）
